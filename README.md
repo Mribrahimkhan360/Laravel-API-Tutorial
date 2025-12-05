@@ -188,7 +188,9 @@ If you want, I can:
 ✅ Convert to Markdown with badges<br />
 
 Result <br />
-<h1>Create</h1>
+<h2>Create</h2>
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_5.png"/> <br />
-<h1>GET Result</h1>
+<h2>GET Result</h2>
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_6.png"/>
+<h2>id by get</h2>
+<img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_7.png"/>
