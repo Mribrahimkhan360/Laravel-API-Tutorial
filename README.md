@@ -1,5 +1,5 @@
 Here is a **clean, professional English `README.md`** for your Laravel API CRUD project.
-You can copy and paste this directly into your GitHub repository as `README.md` ✅
+You can copy and paste this directly into your GitHub repository as `README.md` 
 
 ---
 
