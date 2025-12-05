@@ -187,5 +187,5 @@ If you want, I can:
 ✅ Write an advanced version<br />
 ✅ Convert to Markdown with badges<br />
 
-Just tell me 😊<br />
-<img src="https://prnt.sc/NG0-giUft3s1"/>
+Just tell me <br />
+<img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_5.png"/>
