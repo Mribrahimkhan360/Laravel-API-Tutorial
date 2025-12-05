@@ -3,29 +3,66 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Student;
 
 class ApiController extends Controller
 {
-    //
+    // ✅ Read All
     public function getAllStudents()
     {
-        // Logic to retrieve all students
+        return response()->json(Student::all());
     }
+
+    // ✅ Read Single
     public function getStudent($id)
     {
-        // Logic to retrieve a specific student by ID
+        $student = Student::find($id);
+
+        if (!$student) {
+            return response()->json(['error' => 'Not Found'], 404);
+        }
+
+        return response()->json($student);
     }
+
+    // ✅ Create
     public function createStudent(Request $request)
     {
-        // Logic to create a new student
+        $request->validate([
+            'name' => 'required',
+            'course' => 'required'
+        ]);
+
+        $student = Student::create($request->all());
+
+        return response()->json(['success' => true, 'data' => $student]);
     }
-    public function updateStudent(Requwst $request, $id)
+
+    // ✅ Update
+    public function updateStudent(Request $request, $id)
     {
-        // Logic to update an existing student
+        $student = Student::find($id);
+
+        if (!$student) {
+            return response()->json(['error' => 'Not Found'], 404);
+        }
+
+        $student->update($request->all());
+
+        return response()->json(['success' => true, 'data' => $student]);
     }
+
+    // ✅ Delete
     public function deleteStudent($id)
     {
-        // Logic to delete a student
-        
+        $student = Student::find($id);
+
+        if (!$student) {
+            return response()->json(['error' => 'Not Found'], 404);
+        }
+
+        $student->delete();
+
+        return response()->json(['success' => true, 'message' => 'Deleted']);
     }
 }
