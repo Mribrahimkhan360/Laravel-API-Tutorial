@@ -192,5 +192,7 @@ Result <br />
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_5.png"/> <br />
 <h2>GET Result</h2>
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_6.png"/>
-<h2>id by get</h2>
+<h2>Id by Get</h2>
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_7.png"/>
+<h2>Update</h2>
+<img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_8.png"/>
