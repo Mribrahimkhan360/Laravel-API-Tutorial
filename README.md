@@ -181,10 +181,11 @@ This project is open-source and free to use.
 ---
 
 If you want, I can:
-✅ Customize this with your GitHub name
-✅ Add authentication info (Laravel Sanctum)
-✅ Add Postman collection
-✅ Write an advanced version
-✅ Convert to Markdown with badges
+✅ Customize this with your GitHub name<br />
+✅ Add authentication info (Laravel Sanctum)<br />
+✅ Add Postman collection<br />
+✅ Write an advanced version<br />
+✅ Convert to Markdown with badges<br />
 
-Just tell me 😊
+Just tell me 😊<br />
+<img src="https://prnt.sc/NG0-giUft3s1"/>
