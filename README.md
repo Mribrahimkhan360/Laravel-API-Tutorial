@@ -196,3 +196,5 @@ Result <br />
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_7.png"/>
 <h2>Update</h2>
 <img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_8.png"/>
+<h2>Delete</h2>
+<img src="https://github.com/Mribrahimkhan360/Laravel-API-Tutorial/blob/main/public/Screenshot_9.png"/>
