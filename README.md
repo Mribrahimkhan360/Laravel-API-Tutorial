@@ -180,7 +180,7 @@ This project is open-source and free to use.
 
 ---
 
-If you want, I can:
+If you want, I can: <br/>
 ✅ Customize this with your GitHub name<br />
 ✅ Add authentication info (Laravel Sanctum)<br />
 ✅ Add Postman collection<br />
